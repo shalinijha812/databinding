@@ -1,6 +1,9 @@
 <div>
+  <p>Child component</p>
   
-    <input [(ngModel)] = "yourName" (keyup.enter)="fireEvent()" />
+  <input [(ngModel)] = "pName" (keyup.enter)="onkeyUp()" />
+  <button (click)="linkParent(pName)">submit</button>;
+  
     
   </div>
 

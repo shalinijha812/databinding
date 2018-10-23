@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter,Output } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-component13',
@@ -6,11 +6,16 @@ import { Component, OnInit, EventEmitter,Output } from '@angular/core';
   styleUrls: ['./component13.component.css']
 })
 export class Component13Component implements OnInit {
-  @Output()
-  public childEvent=new EventEmitter;
   
-
-  constructor() { }
+ 
+  childToParentData:string;
+  getOutputVal(selected:string){
+    this.childToParentData=selected;
+    console.log("value received from child : " + selected);
+  }
+  constructor() {
+    
+   }
 
   ngOnInit() {
   }

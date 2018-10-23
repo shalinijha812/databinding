@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./scenario2.component.css']
 })
 export class Scenario2Component {
-  display1 = "enter here";
+  display1 = "";
   //result = '';
   
   onkeyUp(){
