@@ -1,8 +1,10 @@
+
+import { Module2Module } from './module2/module2.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { OnEnterComponent } from './on-enter/on-enter.component';
+
 import { Scenario1Component } from './scenario1/scenario1.component';
 import { Scenario2Component } from './scenario2/scenario2.component';
 import { FormsModule } from '@angular/forms';
@@ -24,7 +26,7 @@ import { Component16Component } from './scenario6/component16/component16.compon
 @NgModule({
   declarations: [
     AppComponent,
-    OnEnterComponent,
+   
     Scenario1Component,
     Scenario2Component,
     Scenario1fComponent,
@@ -43,7 +45,8 @@ import { Component16Component } from './scenario6/component16/component16.compon
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    Module2Module
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,7 +11,7 @@ import { Component1Component } from './scenario3/component1/component1.component
 import { Scenario1fComponent } from './scenario1f/scenario1f.component';
 import { Scenario2Component } from './scenario2/scenario2.component';
 import { Scenario1Component } from './scenario1/scenario1.component';
-import { OnEnterComponent } from './on-enter/on-enter.component';
+
 
 
 

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OnEnterComponent } from './on-enter.component';
+import { ModuleCompComponent } from './module-comp.component';
 
-describe('OnEnterComponent', () => {
-  let component: OnEnterComponent;
-  let fixture: ComponentFixture<OnEnterComponent>;
+describe('ModuleCompComponent', () => {
+  let component: ModuleCompComponent;
+  let fixture: ComponentFixture<ModuleCompComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OnEnterComponent ]
+      declarations: [ ModuleCompComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OnEnterComponent);
+    fixture = TestBed.createComponent(ModuleCompComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
